@@ -8,6 +8,14 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk import ne_chunk, pos_tag
 
+import nltk
+# Download the necessary resources
+nltk.download('punkt', './nltk_data')
+nltk.download('averaged_perceptron_tagger', './nltk_data')
+nltk.download('vader_lexicon', './nltk_data')
+nltk.download('maxent_ne_chunker', './nltk_data')
+nltk.download('words', './nltk_data')
+
 
 def analyze_article(article_text: str) -> dict:
 

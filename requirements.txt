@@ -2,3 +2,15 @@
 pandas==2.0.0
 nltk==3.8.1
 Flask==2.2.3
+markupsafe
+jinja2
+werkzeug
+click
+itsdangerous
+importlib_metadata
+zipp
+numpy
+pytz
+python-dateutil
+six
+regex

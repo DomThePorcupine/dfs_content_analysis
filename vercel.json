@@ -3,6 +3,11 @@
     "env": {
         "NLTK_DATA": "nltk_data"
     },
+    "build": {
+        "env": {
+            "PIP_INSTALL_OPTIONS": "--no-deps"
+        }
+    },
     "builds": [
         {
             "src": "./app.py",

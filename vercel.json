@@ -1,10 +1,9 @@
 {
     "version": 2,
+    "env": {
+        "NLTK_DATA": "nltk_data"
+    },
     "builds": [
-        {
-            "src": "./preboot.py",
-            "use": "@vercel/python"
-        },
         {
             "src": "./app.py",
             "use": "@vercel/python"

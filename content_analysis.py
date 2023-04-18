@@ -7,13 +7,6 @@ import textract
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk import ne_chunk, pos_tag
-import nltk
-# Download the necessary resources
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('vader_lexicon')
-nltk.download('maxent_ne_chunker')
-nltk.download('words')
 
 
 def analyze_article(article_text: str) -> dict:

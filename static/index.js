@@ -55,7 +55,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="centered">
       <h3>Enter the article text to be analyzed:</h3>
       <textarea
         name="Article Text"

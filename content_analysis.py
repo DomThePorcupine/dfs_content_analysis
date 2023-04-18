@@ -3,7 +3,7 @@
 '''
 
 import pandas as pd
-import textract
+# import textract
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk import ne_chunk, pos_tag

@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "maxLambdaSize": "100mb",
     "builds": [
         {
             "src": "./app.py",
